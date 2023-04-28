@@ -2647,3 +2647,6 @@ only screen and (                min-resolution: 2dppx){
   #copyright a:hover{
 	color: gold;
   }
+  .wprt-icon-box.icon-left.accent-background .content-wrap {
+    padding-left: 10px !important;
+}
