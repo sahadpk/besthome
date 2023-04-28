@@ -921,28 +921,28 @@
             });
         },
 
-        googleMap: function() {
-            if ( $().gmap3 ) {
-                var contentString = '<div id="content">'+
-                    '<div>'+
-                    '<h5 style="margin: 5px 0 0">CONSTRUCTION</h5>'+
-                    '<p style="margin: 0 0 5px">Ultimate Construction Template</p>'+
-                    '</div>';
-                $('#gmap')
-                .gmap3({
-                    center: [11.535478, 106.890631],
-                    zoom: 14,
-                    scrollwheel: false
-                })
-                .infowindow({
-                    position: [11.537034, 106.890167],
-                    content: contentString
-                })
-                .then(function (infowindow) {
-                    infowindow.open(this.get(0));
-                });
-            }
-        },
+        // googleMap: function() {
+        //     if ( $().gmap3 ) {
+        //         var contentString = '<div id="content">'+
+        //             '<div>'+
+        //             '<h5 style="margin: 5px 0 0">CONSTRUCTION</h5>'+
+        //             '<p style="margin: 0 0 5px">Ultimate Construction Template</p>'+
+        //             '</div>';
+        //         $('#gmap')
+        //         .gmap3({
+        //             center: [11.535478, 106.890631],
+        //             zoom: 14,
+        //             scrollwheel: false
+        //         })
+        //         .infowindow({
+        //             position: [11.537034, 106.890167],
+        //             content: contentString
+        //         })
+        //         .then(function (infowindow) {
+        //             infowindow.open(this.get(0));
+        //         });
+        //     }
+        // },
 
     }; // end wprtTheme
 
