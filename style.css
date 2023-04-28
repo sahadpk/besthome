@@ -791,6 +791,7 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #ffc925; text
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
+
 #site-header.is-sticky:after {  opacity: 0.8; }
 
 /* Sub Menu */
@@ -2638,4 +2639,11 @@ only screen and (                min-resolution: 2dppx){
 	margin-top: -60px;
 	margin-left: -60px;
 	border-radius: 100%;
+  }
+  .site-logo-inner img{
+	height: 10px !important;
+	width: 30px !important;
+  }
+  #copyright a:hover{
+	color: gold;
   }
