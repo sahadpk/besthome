@@ -9,7 +9,10 @@
 #about.wprt-section,
 #why-us.wprt-section,
 #partners.wprt-section {
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
+    background-image: url(../img/project/img51.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
 }
 
 #facts.wprt-section {
