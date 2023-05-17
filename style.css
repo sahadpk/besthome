@@ -453,15 +453,15 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #ffc925; text
 
 #hero-section .hero-title {
 	overflow: hidden;
-	height: 50px;
+	height: 75px;
 	vertical-align: baseline;
 }
 
 #hero-section .hero-title h1 {
 	font-size: 52px;
 	color: #fff;
-	height: 50px;
-	line-height: 50px;
+	height: 75px;
+	line-height: 25px;
 	margin: 0;
 	text-shadow: 1px 1px 3px rgba(0,0,0,.3);
 	-webkit-transition: margin-top 0.5s ease-in-out;
