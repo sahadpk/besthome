@@ -461,7 +461,7 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #ffc925; text
 	font-size: 52px;
 	color: #fff;
 	height: 75px;
-	line-height: 25px;
+	line-height: 40px;
 	margin: 0;
 	text-shadow: 1px 1px 3px rgba(0,0,0,.3);
 	-webkit-transition: margin-top 0.5s ease-in-out;
@@ -2650,3 +2650,10 @@ only screen and (                min-resolution: 2dppx){
   .wprt-icon-box.icon-left.accent-background .content-wrap {
     padding-left: 10px !important;
 }
+.glry row {
+	margin: 15px;
+  }
+  .glry img{
+	height: 40rem !important;
+	width: 100% !important;
+  }
