@@ -2328,7 +2328,7 @@ only screen and (                min-resolution: 2dppx){
 	top: 70px;
 	left: 70px;
 	position: absolute;
-	background-image: url(./assets/img/png-transparent-telephone-call-icon-phone-call-application-screenshot-blue-electronics-text.png);
+	background-image: url(./assets/img/gallery/png-clipart-call-logo-iphone-facetime-computer-icons-computer-software-call-electronics-text-removebg-preview.png);
 	background-size: 40px 40px;
 	background-color: rgba(30, 30, 30, 0.1);
 	background-position: center center;
@@ -2657,3 +2657,307 @@ only screen and (                min-resolution: 2dppx){
 	height: 40rem !important;
 	width: 100% !important;
   }
+
+
+  .wpo-video-section,
+.wpo-video-section-s2 {
+  position: relative;
+  z-index: 1;
+}
+.wpo-video-section::before,
+.wpo-video-section-s2::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70%;
+  content: "";
+  background-color: #edf3f8;
+  z-index: -1;
+}
+@media (min-width: 1600px) {
+  .wpo-video-section .container,
+.wpo-video-section-s2 .container {
+    max-width: 1400px;
+  }
+}
+.wpo-video-section .wpo-video-img,
+.wpo-video-section-s2 .wpo-video-img {
+  position: relative;
+}
+.wpo-video-section .wpo-video-img::before,
+.wpo-video-section-s2 .wpo-video-img::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 49, 95, 0.05);
+}
+.wpo-video-section .wpo-video-img .video-btn,
+.wpo-video-section-s2 .wpo-video-img .video-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border: 2px solid #86a0b6;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 76px;
+  background: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 575px) {
+  .wpo-video-section .wpo-video-img .video-btn,
+.wpo-video-section-s2 .wpo-video-img .video-btn {
+    width: 50px;
+    height: 50px;
+    line-height: 47px;
+  }
+}
+.wpo-video-section .wpo-video-img .video-btn .fi,
+.wpo-video-section-s2 .wpo-video-img .video-btn .fi {
+  position: relative;
+  right: -3px;
+}
+@media (max-width: 575px) {
+  .wpo-video-section .wpo-video-img .video-btn .fi,
+.wpo-video-section-s2 .wpo-video-img .video-btn .fi {
+    right: 0;
+  }
+}
+.wpo-video-section .wpo-video-img .video-btn .fi:before,
+.wpo-video-section-s2 .wpo-video-img .video-btn .fi:before {
+  font-size: 30px;
+  color: #86a0b6;
+}
+@media (max-width: 575px) {
+  .wpo-video-section .wpo-video-img .video-btn .fi:before,
+.wpo-video-section-s2 .wpo-video-img .video-btn .fi:before {
+    font-size: 20px;
+  }
+}
+.wpo-section-title,
+.wpo-section-title-s2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .wpo-section-title,
+.wpo-section-title-s2 {
+    margin-bottom: 40px;
+  }
+}
+.wpo-section-title span,
+.wpo-section-title-s2 span {
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #738ea5;
+  font-family: "Muli";
+}
+@media (max-width: 575px) {
+  .wpo-section-title span,
+.wpo-section-title-s2 span {
+    font-size: 16px;
+  }
+}
+.wpo-section-title h2,
+.wpo-section-title-s2 h2 {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 0;
+  margin: 15px 0;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Futura PT";
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .wpo-section-title h2,
+.wpo-section-title-s2 h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .wpo-section-title h2,
+.wpo-section-title-s2 h2 {
+    font-size: 22px;
+  }
+}
+.wpo-section-title p,
+.wpo-section-title-s2 p {
+  font-size: 18px;
+}
+.wpo-section-title .section-title-img,
+.wpo-section-title-s2 .section-title-img {
+  max-width: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+.wpo-section-title .section-title-img::before, .wpo-section-title .section-title-img::after,
+.wpo-section-title-s2 .section-title-img::before,
+.wpo-section-title-s2 .section-title-img::after {
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 100px;
+  height: 1px;
+  background: #86a0b6;
+}
+@media (max-width: 575px) {
+  .wpo-section-title .section-title-img::before, .wpo-section-title .section-title-img::after,
+.wpo-section-title-s2 .section-title-img::before,
+.wpo-section-title-s2 .section-title-img::after {
+    width: 60px;
+    left: -20px;
+  }
+}
+.wpo-section-title .section-title-img::after,
+.wpo-section-title-s2 .section-title-img::after {
+  right: -70px;
+  left: auto;
+}
+@media (max-width: 575px) {
+  .wpo-section-title .section-title-img::after,
+.wpo-section-title-s2 .section-title-img::after {
+    right: -20px;
+  }
+}
+
+.wpo-section-title-s2 .section-title-img .round-ball {
+  position: absolute;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #86a0b6;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -5px;
+}
+.wpo-section-title-s2 .section-title-img:after, .wpo-section-title-s2 .section-title-img:before {
+  width: 144px;
+}
+@media (max-width: 575px) {
+  .wpo-section-title-s2 .section-title-img:after, .wpo-section-title-s2 .section-title-img:before {
+    width: 80px;
+  }
+}
+.wpo-section-title .section-title-img,
+.wpo-section-title-s2 .section-title-img {
+  max-width: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+.wpo-section-title .section-title-img::before, .wpo-section-title .section-title-img::after,
+.wpo-section-title-s2 .section-title-img::before,
+.wpo-section-title-s2 .section-title-img::after {
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 100px;
+  height: 1px;
+  background: #86a0b6;
+}
+@media (max-width: 575px) {
+  .wpo-section-title .section-title-img::before, .wpo-section-title .section-title-img::after,
+.wpo-section-title-s2 .section-title-img::before,
+.wpo-section-title-s2 .section-title-img::after {
+    width: 60px;
+    left: -20px;
+  }
+}
+.wpo-section-title .section-title-img::after,
+.wpo-section-title-s2 .section-title-img::after {
+  right: -70px;
+  left: auto;
+}
+@media (max-width: 575px) {
+  .wpo-section-title .section-title-img::after,
+.wpo-section-title-s2 .section-title-img::after {
+    right: -20px;
+  }
+}
+
+.wpo-section-title-s2 .section-title-img .round-ball {
+  position: absolute;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #86a0b6;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -5px;
+}
+.wpo-section-title-s2 .section-title-img:after, .wpo-section-title-s2 .section-title-img:before {
+  width: 144px;
+}
+@media (max-width: 575px) {
+  .wpo-section-title-s2 .section-title-img:after, .wpo-section-title-s2 .section-title-img:before {
+    width: 80px;
+  }
+}
+.wpo-video-section .wpo-video-img,
+.wpo-video-section-s2 .wpo-video-img {
+  position: relative;
+}
+.wpo-video-section .wpo-video-img::before,
+.wpo-video-section-s2 .wpo-video-img::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 49, 95, 0.05);
+}
+.wpo-video-section .wpo-video-img .video-btn,
+.wpo-video-section-s2 .wpo-video-img .video-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border: 2px solid #86a0b6;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 76px;
+  background: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 575px) {
+  .wpo-video-section .wpo-video-img .video-btn,
+.wpo-video-section-s2 .wpo-video-img .video-btn {
+    width: 50px;
+    height: 50px;
+    line-height: 47px;
+  }
+}
+.wpo-video-section .wpo-video-img .video-btn .fi,
+.wpo-video-section-s2 .wpo-video-img .video-btn .fi {
+  position: relative;
+  right: -3px;
+}
+@media (max-width: 575px) {
+  .wpo-video-section .wpo-video-img .video-btn .fi,
+.wpo-video-section-s2 .wpo-video-img .video-btn .fi {
+    right: 0;
+  }
+}
+.wpo-video-section .wpo-video-img .video-btn .fi:before,
+.wpo-video-section-s2 .wpo-video-img .video-btn .fi:before {
+  font-size: 30px;
+  color: #86a0b6;
+}
+@media (max-width: 575px) {
+  .wpo-video-section .wpo-video-img .video-btn .fi:before,
+.wpo-video-section-s2 .wpo-video-img .video-btn .fi:before {
+    font-size: 20px;
+  }
+}
