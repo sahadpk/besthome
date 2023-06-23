@@ -2961,4 +2961,7 @@ only screen and (                min-resolution: 2dppx){
     font-size: 20px;
   }
 }
+.main-logo img{
+   height: 135px !important;
+}
 
