@@ -2961,7 +2961,13 @@ only screen and (                min-resolution: 2dppx){
     font-size: 20px;
   }
 }
-.main-logo img{
+/* .main-logo img{
    height: 135px !important;
+} */
+.wprt-section-contact{
+	background-image: url(./assets/img/bg-section-facts.jpg);
+	background-attachment: fixed;
+    background-position: 50% 65px;
+	background-repeat: no-repeat;
 }
 
